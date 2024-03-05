@@ -1,0 +1,60 @@
+<div class="content-wrapper" ng-controller="HomeController">
+  <!-- Content -->
+  <div class="container-xxl flex-grow-1 container-p-y">
+    <h4 class="py-3 mb-4"><span class="text-muted fw-light">UI elements /</span> Collapse</h4>
+    <!-- Collapse -->
+    <h5>Collapse</h5>
+    <div class="row">
+      <div class="col-12">
+        <div class="card mb-4">
+          <h5 class="card-header">Basic</h5>
+          <div class="card-body">
+            <p class="card-text">
+              Toggle the visibility of content across your project with a few classes and our JavaScript plugins.
+            </p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+              <!-- Your appointment cards here -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card">
+          <h5 class="card-header">Multiple targets</h5>
+          <div class="card-body">
+            <p class="card-text">Show and hide multiple elements by referencing them with a selector.</p>
+            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
+              <!-- Your appointment cards here -->
+            </div>
+            <div class="col-lg-4 col-md-3">
+              <div class="mt-3">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+                  <span class="tf-icons bx bx-plus-circle me-1"></span>Créer un rendez-vous
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="appointmentModal" tabindex="-1" aria-hidden="true">
+                  <div class="modal-dialog modal-xl" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="appointmentModalTitle">Créer un rendez-vous</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <!-- Your form for creating an appointment goes here -->
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Fermer</button>
+                        <button type="button" class="btn btn-primary">Enregistrer</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
